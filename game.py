@@ -14,7 +14,7 @@ attempts = 0
 
 print("Guess a number between 1 and 100!")
  
- while guess != number:
+while guess != number:
       guess = int(input("Enter your guess: "))
       attempts += 1
 
